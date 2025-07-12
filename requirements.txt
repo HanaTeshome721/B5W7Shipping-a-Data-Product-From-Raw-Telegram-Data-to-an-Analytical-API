@@ -1,0 +1,12 @@
+telethon
+pandas
+sqlalchemy
+psycopg2-binary
+python-dotenv
+dbt-postgres
+dagster
+dagster-postgres
+dagit
+fastapi
+uvicorn
+yolov8  # or use: ultralytics
