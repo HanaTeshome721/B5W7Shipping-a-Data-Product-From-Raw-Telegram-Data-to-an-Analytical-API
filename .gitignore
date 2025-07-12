@@ -1,2 +1,21 @@
-venv
-data
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environments
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+
+# dbt artifacts
+dbt/target/
+dbt/dbt_modules/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
