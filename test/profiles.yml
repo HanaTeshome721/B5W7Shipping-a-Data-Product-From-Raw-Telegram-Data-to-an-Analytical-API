@@ -1,0 +1,11 @@
+medical_telegram_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: db
+      user: admin
+      password: admin123
+      dbname: telegram_medical
+      schema: analytics
+      threads: 1
