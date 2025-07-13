@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *.log
-
+data
 # Virtual environments
 venv/
 
@@ -16,6 +16,7 @@ venv/
 # dbt artifacts
 dbt/target/
 dbt/dbt_modules/
-
+data
 # Jupyter Notebooks
 .ipynb_checkpoints/
+./data
