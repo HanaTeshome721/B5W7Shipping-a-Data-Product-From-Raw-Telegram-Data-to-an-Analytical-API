@@ -10,3 +10,7 @@ dagit
 fastapi
 uvicorn
 yolov8  # or use: ultralytics
+fastapi
+uvicorn[standard]
+psycopg2
+pydantic
